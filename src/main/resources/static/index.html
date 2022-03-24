@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="메모장 서비스">
+    <meta property="og:description" content="아치는 귀엽다">
+    <meta property="og:image" content="images/architax.jpg">
+    <title>Timeline Service</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /*@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);*/
+    </style>
+    <script src="./main.js"></script>
+</head>
+
+<body>
+<div class="background-header">
+
+</div>
+<div class="background-body">
+
+</div>
+<div class="wrap">
+    <div class="header">
+        <h2>Timeline Service</h2>
+        <p>
+            적고 싶은 내용을 남겨주세요.<br>
+            그런 공간입니다.
+        </p>
+    </div>
+    <div class="box">
+        <div>
+            <a href="write.html"><button class="button is-info" id="write" >글쓰기</button></a>
+        </div>
+        <table id="menutable" class="table is-fullwidth">
+            <thead>
+            <tr>
+                <th>No.</th>
+                <th>username</th>
+                <th>title</th>
+                <th>time</th>
+            </tr>
+            </thead>
+            <tbody id =  "tbodytr">
+            <tr id="tabletr">
+                <th>01</th>
+                <td>이기주</td>
+                <td>말의품격</td>
+                <td>기록시간</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+
+</html>
